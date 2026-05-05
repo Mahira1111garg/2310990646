@@ -52,3 +52,5 @@ A full-stack notification management system that fetches, prioritizes, and dynam
 - `notification_app_fe/`: React frontend providing the beautiful UI using Material UI.
 - `screenshots/`: Collection of snapshots indicating feature completeness and functionality.
 - `notification_system_design.md`: Core system architecture design emphasizing edge cases and sorting efficiency explanations.
+## video link
+https://drive.google.com/file/d/14zMd0nJYDYlK_cn3j-73emfMABb970nZ/view?usp=drive_link
