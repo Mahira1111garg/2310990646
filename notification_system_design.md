@@ -2,7 +2,7 @@
 
 ## Problem Statement
 The objective of this project is to build a robust notification system that can fetch, prioritize, and display notifications in real-time. Since notifications come in different types and varying levels of urgency, a simple chronological display is insufficient. The challenge is computing and providing a "top N" list of notifications prioritizing high-impact messages while still factoring in recency for tie-breaking scenarios.
-
+Min Heap of size N → O(log N)
 ## Priority Logic
 To decide which notification matters the most, each notification type is mapped to a priority weight. Notifications with a higher weight must take precedence over notifications with a lower weight. 
 
