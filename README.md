@@ -2,22 +2,20 @@
 
 A full-stack notification management system that fetches, prioritizes, and dynamically displays notifications based on customizable importance rules and recency. This project features a robust Express backend and a responsive React frontend fully styled with Material UI.
 
-## Features
-- **Structured Logging:** Centralized logging middleware built into controllers and services for standardized tracking (logs metrics like stack, package, level, message).
-- **Intelligent Prioritization Algorithm:** Sorts messages based on event type weights (`Placement > Result > Event`) and uses recency as a tie-breaker.
-- **Paginated All Notifications View:** See all incoming events and filter them conveniently by Type.
-- **Top N Dashboard:** High-priority board fetching the exact top `N` urgent notifications in real time.
-- **Responsive Design:** A polished, fully responsive UI built entirely with Material UI components.
+# Features
+-Structured Logging:** Centralized logging middleware built into controllers and services for standardized tracking.
+-Intelligent Prioritization Algorithm:** Sorts messages based on event type weights (`Placement > Result > Event`) and uses recency as a tie-breaker.
+-Top N Dashboard:** High-priority board fetching the exact top `N` urgent notifications in real time.
 
-## Tech Stack
-- **Backend:** Node.js, Express, Axios, CORS
-- **Frontend:** React (Create React App), Material UI, Axios, React Router v6
+#Tech Stack
+- Backend:** Node.js, Express, Axios, CORS
+- Frontend:** React, UI, Axios
 
 ## Setup Instructions
 
-### Pre-requisites
-- Node.js (v18+)
-- Ensure port 5001 is free (the backend defaults to 5001 to avoid Apple's AirPort Receiver conflicts on macOS port 5000)
+# Pre-requisites
+- Node.js 
+- Ensure port 5001 is free 
 - Ensure port 3000 is free for the React frontend
 
 ### 1. Running the Backend
