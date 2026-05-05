@@ -1,11 +1,11 @@
 const axios = require("axios");
 const { BASE_URL } = require("../../logging_middleware/config");
-const { getToken } = require("../../logging_middleware/auth");
+const { getAuthToken } = require("../../logging_middleware/auth");
 const Log = require("../../logging_middleware/log");
 
 async function fetchNotifications() {
   try {
-    const token = getToken();
+    let token = await getAuthToken();
     const res = await axios.get(`${BASE_URL}/notifications`, {
       headers: {
         Authorization: `Bearer ${token}`,
